@@ -1,0 +1,28 @@
+.tabs {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .tab-buttons {
+    display: flex;
+  }
+  
+  .tab-buttons button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #f0f0f0;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,17 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottom-nav button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
